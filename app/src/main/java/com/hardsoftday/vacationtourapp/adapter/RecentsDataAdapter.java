@@ -21,6 +21,11 @@ public class RecentsDataAdapter  extends RecyclerView.Adapter<RecentsDataAdapter
     Context context;
     List<RecentsData> recentsDataList;
 
+    public RecentsDataAdapter(Context context, List<RecentsData> recentsDataList) {
+        this.context = context;
+        this.recentsDataList = recentsDataList;
+    }
+
     @NonNull
     @Override
     public RecentsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
