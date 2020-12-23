@@ -79,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto_medium"
         android:text="Available fligth: "
         android:textColor="#044363"
@@ -125,7 +125,7 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto_bold"
         android:text="Photogellery"
         android:textColor="@color/black"
@@ -195,7 +195,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto_bold"
         android:text="About"
         android:textColor="@color/black"
@@ -209,13 +209,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="24dp"
-        android:text="Classic Rock Covers | Best Classic Rock 70s 80s 90s | Classic Rock Greatest Hits Classic Rock Covers | Best Classic Rock 70s 80s 90s | Classic Rock Greatest Hits Classic Rock Covers | Best Classic Rock 70s 80s 90s | Classic Rock Greatest Hits Classic Rock Covers | Best Classic Rock 70s 80s 90s | Classic Rock Greatest Hits"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        android:text="Classic Rock Ballads 80s 90s | Best Classi Rock Ballads Songs Of 80's 90's Classic Rock Ballads 80s 90s | Best Classi Rock Ballads Songs Of 80's 90's"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.214" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
