@@ -1,6 +1,7 @@
 package com.hardsoftday.vacationtourapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.hardsoftday.vacationtourapp.DetailsActivity;
 import com.hardsoftday.vacationtourapp.R;
 import com.hardsoftday.vacationtourapp.models.RecentsData;
 
@@ -40,6 +42,15 @@ public class RecentsDataAdapter  extends RecyclerView.Adapter<RecentsDataAdapter
         holder.placeName.setText(recentsDataList.get(position).getPlaceName());
         holder.price.setText(recentsDataList.get(position).getPrice());
         holder.placeImage.setImageResource(recentsDataList.get(position).getImageUrl());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(context, DetailsActivity.class);
+                context.startActivity(i);
+            }
+        });
+
     }
 
     @Override
